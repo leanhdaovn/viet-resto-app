@@ -1,4 +1,4 @@
-package com.nearbyfavourites;
+package com.vietresto;
 
 import android.app.Application;
 import android.util.Log;

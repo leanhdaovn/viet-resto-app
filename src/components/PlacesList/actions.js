@@ -19,7 +19,7 @@ const loadPlaces = (lat, lng, dispatch) => {
     return;
   }
 
-  const url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${lat},${lng}&name=starbucks&rankby=distance&key=AIzaSyAN0XX-AZzMOKnssHEBjnh8u-QwP9SqTLc`;
+  const url = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${lat},${lng}&keyword=vietnam&type=restaurant&rankby=distance&key=AIzaSyAN0XX-AZzMOKnssHEBjnh8u-QwP9SqTLc`;
 
   fetch(url, {method: "GET"})
     .then((response) => response.json())

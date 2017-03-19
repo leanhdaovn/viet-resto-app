@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4D8230B999357BEC7D3B5DC1E147FAC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		88592174129F5A9D2F237D3981E6F5BD /* Pods-NearbyFavouritesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96360A02A2394D7E30EC6715A0CB1A02 /* Pods-NearbyFavouritesTests-dummy.m */; };
+		88592174129F5A9D2F237D3981E6F5BD /* Pods-VietRestoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96360A02A2394D7E30EC6715A0CB1A02 /* Pods-VietRestoTests-dummy.m */; };
 		DCCDF545C2A9E52584A43859047D406E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		DF1C73CB9EB6D155D52403E9164E1D2C /* Pods-NearbyFavourites-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32172E573EDE9683BFBDC22B2B9B442D /* Pods-NearbyFavourites-dummy.m */; };
+		DF1C73CB9EB6D155D52403E9164E1D2C /* Pods-VietResto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32172E573EDE9683BFBDC22B2B9B442D /* Pods-VietResto-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,28 +18,28 @@
 		2091F396E3C0627FDF739037F51B0F43 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Subspecs/Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		2256E9F2E70DF4827A9AEAF412EDA15E /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Subspecs/Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
 		2DF17B5E7D5F87D48E5DDE49A1F859D1 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Subspecs/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
-		3053B5FF1D74A9E82116B4B72940E3FE /* Pods-NearbyFavouritesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NearbyFavouritesTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		31B71F85235EA38CCA3A9DD52F6509A2 /* Pods-NearbyFavouritesTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NearbyFavouritesTests-frameworks.sh"; sourceTree = "<group>"; };
-		32172E573EDE9683BFBDC22B2B9B442D /* Pods-NearbyFavourites-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NearbyFavourites-dummy.m"; sourceTree = "<group>"; };
-		36BAB9458EE4B833E1DE301F5133871B /* Pods-NearbyFavourites-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NearbyFavourites-resources.sh"; sourceTree = "<group>"; };
-		4996CFC33ECFFE1881990C7146722AFA /* Pods-NearbyFavourites-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NearbyFavourites-acknowledgements.plist"; sourceTree = "<group>"; };
-		6D3ABE87DDF68F3B65B9D17A1D000D8D /* libPods-NearbyFavourites.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NearbyFavourites.a"; path = "libPods-NearbyFavourites.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3053B5FF1D74A9E82116B4B72940E3FE /* Pods-VietRestoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VietRestoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		31B71F85235EA38CCA3A9DD52F6509A2 /* Pods-VietRestoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VietRestoTests-frameworks.sh"; sourceTree = "<group>"; };
+		32172E573EDE9683BFBDC22B2B9B442D /* Pods-VietResto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VietResto-dummy.m"; sourceTree = "<group>"; };
+		36BAB9458EE4B833E1DE301F5133871B /* Pods-VietResto-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VietResto-resources.sh"; sourceTree = "<group>"; };
+		4996CFC33ECFFE1881990C7146722AFA /* Pods-VietResto-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VietResto-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D3ABE87DDF68F3B65B9D17A1D000D8D /* libPods-VietResto.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VietResto.a"; path = "libPods-VietResto.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B70147A64EA87FBB49D8E109B64F98 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Subspecs/Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
-		77EBBE71974871C875B63370AA94D5F4 /* Pods-NearbyFavouritesTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NearbyFavouritesTests-resources.sh"; sourceTree = "<group>"; };
-		7C8706CDA5E4C3B6D036E3B61F1C4E98 /* Pods-NearbyFavourites-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NearbyFavourites-frameworks.sh"; sourceTree = "<group>"; };
-		8FA12649EC6ECF3D646FBB2620F04E6F /* Pods-NearbyFavourites-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NearbyFavourites-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9337A708845AB4F39DF7219AF81003D4 /* Pods-NearbyFavouritesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NearbyFavouritesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		77EBBE71974871C875B63370AA94D5F4 /* Pods-VietRestoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VietRestoTests-resources.sh"; sourceTree = "<group>"; };
+		7C8706CDA5E4C3B6D036E3B61F1C4E98 /* Pods-VietResto-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VietResto-frameworks.sh"; sourceTree = "<group>"; };
+		8FA12649EC6ECF3D646FBB2620F04E6F /* Pods-VietResto-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VietResto-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9337A708845AB4F39DF7219AF81003D4 /* Pods-VietRestoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VietRestoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		955D3A22EB34AB333524A949DC729F6B /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
-		96360A02A2394D7E30EC6715A0CB1A02 /* Pods-NearbyFavouritesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NearbyFavouritesTests-dummy.m"; sourceTree = "<group>"; };
-		B995DE9D827811168AB3A41A64FA8F1F /* libPods-NearbyFavouritesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NearbyFavouritesTests.a"; path = "libPods-NearbyFavouritesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96360A02A2394D7E30EC6715A0CB1A02 /* Pods-VietRestoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VietRestoTests-dummy.m"; sourceTree = "<group>"; };
+		B995DE9D827811168AB3A41A64FA8F1F /* libPods-VietRestoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VietRestoTests.a"; path = "libPods-VietRestoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D1C1326F4A6423A860EAC299B9B544C5 /* Pods-NearbyFavourites.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NearbyFavourites.release.xcconfig"; sourceTree = "<group>"; };
-		E1A4F3B0DACFBC6DEBA371B7DE422739 /* Pods-NearbyFavouritesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NearbyFavouritesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1C1326F4A6423A860EAC299B9B544C5 /* Pods-VietResto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VietResto.release.xcconfig"; sourceTree = "<group>"; };
+		E1A4F3B0DACFBC6DEBA371B7DE422739 /* Pods-VietRestoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VietRestoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F769EDE7CC5A77CDBE3B2309AF3BD5FA /* GooglePlacePicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlacePicker.bundle; path = Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle; sourceTree = "<group>"; };
 		F8567FFA809DD02B36CFB593922A14EA /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
-		FF0DD8D0DFC1651DABED1D0A0E824CB6 /* Pods-NearbyFavourites.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NearbyFavourites.debug.xcconfig"; sourceTree = "<group>"; };
-		FFD913CA08240712F5891F29E765C231 /* Pods-NearbyFavouritesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NearbyFavouritesTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF0DD8D0DFC1651DABED1D0A0E824CB6 /* Pods-VietResto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VietResto.debug.xcconfig"; sourceTree = "<group>"; };
+		FFD913CA08240712F5891F29E765C231 /* Pods-VietRestoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VietRestoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,43 +72,43 @@
 			path = GooglePlaces;
 			sourceTree = "<group>";
 		};
-		35F455F42BDA6D838963E4E07DC6EBF2 /* Pods-NearbyFavourites */ = {
+		35F455F42BDA6D838963E4E07DC6EBF2 /* Pods-VietResto */ = {
 			isa = PBXGroup;
 			children = (
-				8FA12649EC6ECF3D646FBB2620F04E6F /* Pods-NearbyFavourites-acknowledgements.markdown */,
-				4996CFC33ECFFE1881990C7146722AFA /* Pods-NearbyFavourites-acknowledgements.plist */,
-				32172E573EDE9683BFBDC22B2B9B442D /* Pods-NearbyFavourites-dummy.m */,
-				7C8706CDA5E4C3B6D036E3B61F1C4E98 /* Pods-NearbyFavourites-frameworks.sh */,
-				36BAB9458EE4B833E1DE301F5133871B /* Pods-NearbyFavourites-resources.sh */,
-				FF0DD8D0DFC1651DABED1D0A0E824CB6 /* Pods-NearbyFavourites.debug.xcconfig */,
-				D1C1326F4A6423A860EAC299B9B544C5 /* Pods-NearbyFavourites.release.xcconfig */,
+				8FA12649EC6ECF3D646FBB2620F04E6F /* Pods-VietResto-acknowledgements.markdown */,
+				4996CFC33ECFFE1881990C7146722AFA /* Pods-VietResto-acknowledgements.plist */,
+				32172E573EDE9683BFBDC22B2B9B442D /* Pods-VietResto-dummy.m */,
+				7C8706CDA5E4C3B6D036E3B61F1C4E98 /* Pods-VietResto-frameworks.sh */,
+				36BAB9458EE4B833E1DE301F5133871B /* Pods-VietResto-resources.sh */,
+				FF0DD8D0DFC1651DABED1D0A0E824CB6 /* Pods-VietResto.debug.xcconfig */,
+				D1C1326F4A6423A860EAC299B9B544C5 /* Pods-VietResto.release.xcconfig */,
 			);
-			name = "Pods-NearbyFavourites";
-			path = "Target Support Files/Pods-NearbyFavourites";
+			name = "Pods-VietResto";
+			path = "Target Support Files/Pods-VietResto";
 			sourceTree = "<group>";
 		};
 		4274899CF14F5866EFE4FCF1AC616C0F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6D3ABE87DDF68F3B65B9D17A1D000D8D /* libPods-NearbyFavourites.a */,
-				B995DE9D827811168AB3A41A64FA8F1F /* libPods-NearbyFavouritesTests.a */,
+				6D3ABE87DDF68F3B65B9D17A1D000D8D /* libPods-VietResto.a */,
+				B995DE9D827811168AB3A41A64FA8F1F /* libPods-VietRestoTests.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5EDE9E164B245A03D94E082B61299627 /* Pods-NearbyFavouritesTests */ = {
+		5EDE9E164B245A03D94E082B61299627 /* Pods-VietRestoTests */ = {
 			isa = PBXGroup;
 			children = (
-				E1A4F3B0DACFBC6DEBA371B7DE422739 /* Pods-NearbyFavouritesTests-acknowledgements.markdown */,
-				3053B5FF1D74A9E82116B4B72940E3FE /* Pods-NearbyFavouritesTests-acknowledgements.plist */,
-				96360A02A2394D7E30EC6715A0CB1A02 /* Pods-NearbyFavouritesTests-dummy.m */,
-				31B71F85235EA38CCA3A9DD52F6509A2 /* Pods-NearbyFavouritesTests-frameworks.sh */,
-				77EBBE71974871C875B63370AA94D5F4 /* Pods-NearbyFavouritesTests-resources.sh */,
-				9337A708845AB4F39DF7219AF81003D4 /* Pods-NearbyFavouritesTests.debug.xcconfig */,
-				FFD913CA08240712F5891F29E765C231 /* Pods-NearbyFavouritesTests.release.xcconfig */,
+				E1A4F3B0DACFBC6DEBA371B7DE422739 /* Pods-VietRestoTests-acknowledgements.markdown */,
+				3053B5FF1D74A9E82116B4B72940E3FE /* Pods-VietRestoTests-acknowledgements.plist */,
+				96360A02A2394D7E30EC6715A0CB1A02 /* Pods-VietRestoTests-dummy.m */,
+				31B71F85235EA38CCA3A9DD52F6509A2 /* Pods-VietRestoTests-frameworks.sh */,
+				77EBBE71974871C875B63370AA94D5F4 /* Pods-VietRestoTests-resources.sh */,
+				9337A708845AB4F39DF7219AF81003D4 /* Pods-VietRestoTests.debug.xcconfig */,
+				FFD913CA08240712F5891F29E765C231 /* Pods-VietRestoTests.release.xcconfig */,
 			);
-			name = "Pods-NearbyFavouritesTests";
-			path = "Target Support Files/Pods-NearbyFavouritesTests";
+			name = "Pods-VietRestoTests";
+			path = "Target Support Files/Pods-VietRestoTests";
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -198,8 +198,8 @@
 		BB26B75A583C1D3257C3290B1024D07A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				35F455F42BDA6D838963E4E07DC6EBF2 /* Pods-NearbyFavourites */,
-				5EDE9E164B245A03D94E082B61299627 /* Pods-NearbyFavouritesTests */,
+				35F455F42BDA6D838963E4E07DC6EBF2 /* Pods-VietResto */,
+				5EDE9E164B245A03D94E082B61299627 /* Pods-VietRestoTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -254,9 +254,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B8688EBC473CCADA48FE9DD544AA2007 /* Pods-NearbyFavourites */ = {
+		B8688EBC473CCADA48FE9DD544AA2007 /* Pods-VietResto */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73A8D4240CE40EE6181FDD1229E8DF70 /* Build configuration list for PBXNativeTarget "Pods-NearbyFavourites" */;
+			buildConfigurationList = 73A8D4240CE40EE6181FDD1229E8DF70 /* Build configuration list for PBXNativeTarget "Pods-VietResto" */;
 			buildPhases = (
 				C27300733304BBA0F7D1C924DB4B719E /* Sources */,
 				8EC299EA8B7B4F1871E16BFE313747D3 /* Frameworks */,
@@ -265,14 +265,14 @@
 			);
 			dependencies = (
 			);
-			name = "Pods-NearbyFavourites";
-			productName = "Pods-NearbyFavourites";
-			productReference = 6D3ABE87DDF68F3B65B9D17A1D000D8D /* libPods-NearbyFavourites.a */;
+			name = "Pods-VietResto";
+			productName = "Pods-VietResto";
+			productReference = 6D3ABE87DDF68F3B65B9D17A1D000D8D /* libPods-VietResto.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		BFEC3511429F530C4F392C019F969C4A /* Pods-NearbyFavouritesTests */ = {
+		BFEC3511429F530C4F392C019F969C4A /* Pods-VietRestoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C118F208414D8CE8A944FEA9A03BC74 /* Build configuration list for PBXNativeTarget "Pods-NearbyFavouritesTests" */;
+			buildConfigurationList = 6C118F208414D8CE8A944FEA9A03BC74 /* Build configuration list for PBXNativeTarget "Pods-VietRestoTests" */;
 			buildPhases = (
 				5AD4C4ECE9A59FFC103CC73DA45BACB1 /* Sources */,
 				307307899A4A0A3B12876B1ADA5C1B19 /* Frameworks */,
@@ -281,9 +281,9 @@
 			);
 			dependencies = (
 			);
-			name = "Pods-NearbyFavouritesTests";
-			productName = "Pods-NearbyFavouritesTests";
-			productReference = B995DE9D827811168AB3A41A64FA8F1F /* libPods-NearbyFavouritesTests.a */;
+			name = "Pods-VietRestoTests";
+			productName = "Pods-VietRestoTests";
+			productReference = B995DE9D827811168AB3A41A64FA8F1F /* libPods-VietRestoTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -307,8 +307,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B8688EBC473CCADA48FE9DD544AA2007 /* Pods-NearbyFavourites */,
-				BFEC3511429F530C4F392C019F969C4A /* Pods-NearbyFavouritesTests */,
+				B8688EBC473CCADA48FE9DD544AA2007 /* Pods-VietResto */,
+				BFEC3511429F530C4F392C019F969C4A /* Pods-VietRestoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -318,7 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88592174129F5A9D2F237D3981E6F5BD /* Pods-NearbyFavouritesTests-dummy.m in Sources */,
+				88592174129F5A9D2F237D3981E6F5BD /* Pods-VietRestoTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF1C73CB9EB6D155D52403E9164E1D2C /* Pods-NearbyFavourites-dummy.m in Sources */,
+				DF1C73CB9EB6D155D52403E9164E1D2C /* Pods-VietResto-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +379,7 @@
 		};
 		068B17FA6FFB13A84B62644C3106F0E9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1C1326F4A6423A860EAC299B9B544C5 /* Pods-NearbyFavourites.release.xcconfig */;
+			baseConfigurationReference = D1C1326F4A6423A860EAC299B9B544C5 /* Pods-VietResto.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -402,7 +402,7 @@
 		};
 		4262669FC7383166C78F101020F0471D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFD913CA08240712F5891F29E765C231 /* Pods-NearbyFavouritesTests.release.xcconfig */;
+			baseConfigurationReference = FFD913CA08240712F5891F29E765C231 /* Pods-VietRestoTests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -465,7 +465,7 @@
 		};
 		9A3A12ADD7C2280DD176367880F121C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF0DD8D0DFC1651DABED1D0A0E824CB6 /* Pods-NearbyFavourites.debug.xcconfig */;
+			baseConfigurationReference = FF0DD8D0DFC1651DABED1D0A0E824CB6 /* Pods-VietResto.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -488,7 +488,7 @@
 		};
 		BA6E2E2F0C9A71CB1017846E6B592A15 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9337A708845AB4F39DF7219AF81003D4 /* Pods-NearbyFavouritesTests.debug.xcconfig */;
+			baseConfigurationReference = 9337A708845AB4F39DF7219AF81003D4 /* Pods-VietRestoTests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -521,7 +521,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C118F208414D8CE8A944FEA9A03BC74 /* Build configuration list for PBXNativeTarget "Pods-NearbyFavouritesTests" */ = {
+		6C118F208414D8CE8A944FEA9A03BC74 /* Build configuration list for PBXNativeTarget "Pods-VietRestoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA6E2E2F0C9A71CB1017846E6B592A15 /* Debug */,
@@ -530,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73A8D4240CE40EE6181FDD1229E8DF70 /* Build configuration list for PBXNativeTarget "Pods-NearbyFavourites" */ = {
+		73A8D4240CE40EE6181FDD1229E8DF70 /* Build configuration list for PBXNativeTarget "Pods-VietResto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A3A12ADD7C2280DD176367880F121C6 /* Debug */,

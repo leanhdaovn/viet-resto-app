@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-export default class NearbyFavourites extends Component {
+export default class VietResto extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('NearbyFavourites', () => NearbyFavourites);
+AppRegistry.registerComponent('VietResto', () => VietResto);

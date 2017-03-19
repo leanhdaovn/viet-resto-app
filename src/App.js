@@ -13,7 +13,7 @@ const store = configureStore();
 const App = () => (
   <Provider store={store} style={styles.container}>
     <View>
-      <StatusBar title="Nearby Starbucks Coffee" />
+      <StatusBar title="Nearby Vietnamese Restaurants" />
       <ChangeLocationActionButton />
       <PlacesList />
     </View>
