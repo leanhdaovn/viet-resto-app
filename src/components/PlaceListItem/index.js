@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Linking } from 'react-native';
+import { StackNavigator } from 'react-navigation';
 import PlaceListItemPresentation from './PlaceListItemPresentation';
 
 const onPlacePress = (place) => {
@@ -15,8 +16,9 @@ const onPlacePress = (place) => {
   });
 };
 
-const mapStateToProps = (state, {place}) => ({
-    onPress: () => onPlacePress(place)
+const mapStateToProps = (state, {navigation, place}) => ({
+    // onPress: () => onPlacePress(place)
+    onPress: () => navigation.navigate('PlaceDetails', { place })
 });
 
 const PlaceListItem = connect(mapStateToProps)(PlaceListItemPresentation);
