@@ -17,7 +17,7 @@ const PlacesListScreen = ({navigation}) => (
     <Container>
       <Header>
         <Body>
-          <Title>Viet Resto</Title>
+          <Title>Nearby Viet Restaurants</Title>
         </Body>
       </Header>
 
