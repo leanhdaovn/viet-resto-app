@@ -8,6 +8,11 @@ import reducer from './rootReducer';
 const App = StackNavigator({
   Home: { screen: PlacesListScreen },
   PlaceDetails: { screen: PlaceDetailsScreen }
+}, {
+  navigationOptions: {
+    header: { visible: false }
+  },
+  headerMode: 'screen'
 });
 
 export default App;

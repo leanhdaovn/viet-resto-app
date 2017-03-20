@@ -1,12 +1,19 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { Text } from 'react-native';
 import RNGooglePlaces from 'react-native-google-places';
+import { Button } from 'native-base';
 import {
   createChangeLocationStartAction,
   createChangeLocationSuccessAction,
   createChangeLocationErrorAction
 } from './actions';
-import ActionButton from '../common/ActionButton';
+
+const ChangeLocationActionButtonView = ({onPress}) => (
+  <Button success full onPress={onPress}>
+    <Text style={{color: '#fff'}}>Change Location</Text>
+  </Button>
+);
 
 const openSearchModal = () => dispatch => {
   dispatch(createChangeLocationStartAction());
@@ -22,6 +29,6 @@ const mapDispatchToProps = (dispatch) => ({
   onPress: () => dispatch(openSearchModal())
 });
 
-const ChangeLocationActionButton = connect(null, mapDispatchToProps)(ActionButton);
+const ChangeLocationActionButton = connect(null, mapDispatchToProps)(ChangeLocationActionButtonView);
 
 export default ChangeLocationActionButton;

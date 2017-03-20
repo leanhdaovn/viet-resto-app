@@ -1,16 +1,18 @@
 import React from 'react';
-import { View, TouchableHighlight } from 'react-native';
-import styles from '../../styles';
+import { Text } from 'react-native';
+import { Left, Body, ListItem } from 'native-base';
 import PlaceImage from '../PlaceImage';
-import PlaceShortInfo from './PlaceShortInfo';
 
 const PlaceListItemPresentation = ({place, onPress}) => (
-  <TouchableHighlight onPress={onPress}>
-    <View style={styles.li}>
+  <ListItem thumbnail style={{paddingTop: 20, paddingBottom: 20}} onPress={onPress}>
+    <Left>
       <PlaceImage place={place}/>
-      <PlaceShortInfo place={place}/>
-    </View>
-  </TouchableHighlight>
+    </Left>
+    <Body>
+      <Text>{place.name}</Text>
+      <Text>{place.vicinity}</Text>
+    </Body>
+  </ListItem>
 )
 
 export default PlaceListItemPresentation;

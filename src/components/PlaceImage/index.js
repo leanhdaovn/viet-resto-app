@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image } from 'react-native';
+import { Thumbnail } from 'native-base';
 import { connect } from 'react-redux';
 import { googleApiKeySelector } from '../common/selectors';
 
@@ -13,10 +13,11 @@ const placePhotoUrl = (googleApiKey, place) => {
 const mapStateToProps = (state, {place}) => {
   return {
     style: {width: 100, height: 80},
-    source: {uri: placePhotoUrl(googleApiKeySelector(state), place)}
+    source: {uri: placePhotoUrl(googleApiKeySelector(state), place)},
+    square: true
   }
 }
 
-const PlaceImage = connect(mapStateToProps)(Image);
+const PlaceImage = connect(mapStateToProps)(Thumbnail);
 
 export default PlaceImage;

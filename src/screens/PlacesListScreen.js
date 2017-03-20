@@ -1,24 +1,37 @@
 import React from 'react';
-import { View } from 'react-native';
+import { View, Text } from 'react-native';
+import {
+  Container, Header, Title, Content, Footer, FooterTab,
+  Button, Left, Right, Body, Icon,
+  ListItem, Thumbnail
+} from 'native-base';
 import { Provider } from 'react-redux';
 import configureStore from '../configureStore';
 import ChangeLocationActionButton from '../components/ChangeLocationActionButton';
 import PlacesList from '../components/PlacesList';
-import styles from '../styles'
 
 const store = configureStore();
 
 const PlacesListScreen = ({navigation}) => (
-  <Provider store={store} style={styles.container}>
-    <View>
-      <ChangeLocationActionButton />
-      <PlacesList navigation={navigation} />
-    </View>
+  <Provider store={store}>
+    <Container>
+      <Header>
+        <Body>
+          <Title>Viet Resto</Title>
+        </Body>
+      </Header>
+
+      <Content>
+        <PlacesList navigation={navigation} />
+      </Content>
+
+      <Footer>
+        <FooterTab>
+          <ChangeLocationActionButton />
+        </FooterTab>
+      </Footer>
+    </Container>
   </Provider>
 );
-
-PlacesListScreen.navigationOptions = {
-  title: 'Nearby Viet Restaurants',
-};
 
 export default PlacesListScreen;
