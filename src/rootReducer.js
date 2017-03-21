@@ -1,6 +1,7 @@
 import { combineReducers } from 'redux';
 import changeLocationReducer from './components/ChangeLocationActionButton/reducers';
 import nearbyPlacesReducer from './components/PlacesList/reducers';
+import currentPlaceReducer from './screens/PlaceDetailsScreen/reducers';
 
 const apiReducer = (state, action) => {
   return state || {
@@ -11,5 +12,6 @@ const apiReducer = (state, action) => {
 export default combineReducers({
   api: apiReducer,
   location: changeLocationReducer,
-  nearbyPlaces: nearbyPlacesReducer
+  nearbyPlaces: nearbyPlacesReducer,
+  currentPlace: currentPlaceReducer
 });

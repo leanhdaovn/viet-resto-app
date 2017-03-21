@@ -4,7 +4,7 @@ import {
   Container, Header, Title, Content,
   Button, Left, Right, Body, Icon
 } from 'native-base';
-import styles from '../styles';
+import styles from '../../styles'
 
 const openPlaceOnMap = (place) => {
   Linking.canOpenURL('comgooglemaps://').then(supported => {
@@ -18,7 +18,9 @@ const openPlaceOnMap = (place) => {
   });
 };
 
-const PlaceDetailsScreen = ({navigation, navigation: { state: { params: { place } } }}) => (
+const PlaceDetailsView = ({navigation, place}) => (
+  !place ?
+  <Text>Loading...</Text> :
   <Container>
     <Header>
       <Left>
@@ -35,7 +37,7 @@ const PlaceDetailsScreen = ({navigation, navigation: { state: { params: { place 
     <Content>
       <View>
         <Text>{place.name}</Text>
-        <Text>{place.vicinity}</Text>
+        <Text>{place.formatted_address}</Text>
         <Text>Phone number: {place.international_phone_number}</Text>
         <Text>Rating: {place.rating}</Text>
         <Text>Website: {place.website}</Text>
@@ -52,8 +54,4 @@ const PlaceDetailsScreen = ({navigation, navigation: { state: { params: { place 
   </Container>
 );
 
-PlaceDetailsScreen.navigationOptions = {
-  title: 'Place Details',
-};
-
-export default PlaceDetailsScreen;
+export default PlaceDetailsView;

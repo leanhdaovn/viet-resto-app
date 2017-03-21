@@ -5,33 +5,27 @@ import {
   Button, Left, Right, Body, Icon,
   ListItem, Thumbnail
 } from 'native-base';
-import { Provider } from 'react-redux';
-import configureStore from '../configureStore';
 import ChangeLocationActionButton from '../components/ChangeLocationActionButton';
 import PlacesList from '../components/PlacesList';
 
-const store = configureStore();
-
 const PlacesListScreen = ({navigation}) => (
-  <Provider store={store}>
-    <Container>
-      <Header>
-        <Body>
-          <Title>Nearby Viet Restaurants</Title>
-        </Body>
-      </Header>
+  <Container>
+    <Header>
+      <Body>
+        <Title>Nearby Viet Restaurants</Title>
+      </Body>
+    </Header>
 
-      <Content>
-        <PlacesList navigation={navigation} />
-      </Content>
+    <Content>
+      <PlacesList navigation={navigation} />
+    </Content>
 
-      <Footer>
-        <FooterTab>
-          <ChangeLocationActionButton />
-        </FooterTab>
-      </Footer>
-    </Container>
-  </Provider>
+    <Footer>
+      <FooterTab>
+        <ChangeLocationActionButton />
+      </FooterTab>
+    </Footer>
+  </Container>
 );
 
 export default PlacesListScreen;
