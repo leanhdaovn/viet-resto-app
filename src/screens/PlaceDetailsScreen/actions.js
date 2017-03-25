@@ -4,21 +4,14 @@ import { SamplePlace } from '../../SamplePlaces';
 export const LOAD_PLACE_START_ACTION = 'currentPlace/LOAD_PLACE_START_ACTION'
 export const LOAD_PLACE_SUCCESS_ACTION = 'currentPlace/LOAD_PLACE_SUCCESS_ACTION'
 export const LOAD_PLACE_ERROR_ACTION = 'currentPlace/LOAD_PLACE_ERROR_ACTION'
-export const CLEAR_CURRENT_PLACE_ACTION = 'currentPlace/CLEAR_CURRENT_PLACE_ACTION'
 
 export const createLoadPlaceStartAction = createAction(LOAD_PLACE_START_ACTION);
 export const createLoadPlaceSuccessAction = createAction(LOAD_PLACE_SUCCESS_ACTION);
 export const createLoadPlaceErrorAction = createAction(LOAD_PLACE_ERROR_ACTION);
-export const clearCurrentPlaceAction = createAction(CLEAR_CURRENT_PLACE_ACTION);
 
 let placeCache = [];
 
 export const loadPlace = placeId => dispatch => {
-  // dispatch(createLoadPlaceSuccessAction({ place: SamplePlace }));
-  // return;
-
-  // dispatch(clearCurrentPlaceAction());
-
   let place = placeCache[placeId];
 
   if (place) {
@@ -42,6 +35,5 @@ export default {
   loadPlace,
   createLoadPlaceStartAction,
   createLoadPlaceSuccessAction,
-  createLoadPlaceErrorAction,
-  clearCurrentPlaceAction
+  createLoadPlaceErrorAction
 };
