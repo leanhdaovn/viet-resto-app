@@ -1,23 +1,27 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import PlaceDetailsView from './PlaceDetailsView'
+import PlaceDetailsView from './PlaceDetailsView';
 import {
+  clearCurrentPlaceAction,
   loadPlace
-} from './actions'
-import { currentPlaceSelector } from './selectors'
+} from './actions';
+import { currentPlaceSelector } from './selectors';
+import { SamplePlace } from '../../SamplePlaces';
+import get from 'lodash/fp/get';
 
 const PlaceDetails = connect(
   state => ({
-    place: currentPlaceSelector(state)
+    place: currentPlaceSelector(state) //|| SamplePlace
   })
 )(PlaceDetailsView);
 
 const PlaceDetailsScreen = connect(
   null,
-  (dispatch, { navigation: { state: { params: { place } } } }) => {
-    console.log(place);
+  (dispatch, { navigation }) => {
+    const place = get('state.params.place')(navigation) || {}
     return {
-      loadPlace: dispatch(loadPlace(place.place_id))
+      clearPlace: dispatch(clearCurrentPlaceAction()),
+      loadPlace: setTimeout(() => dispatch(loadPlace(place.place_id)), 100)
     }
   }
 )(PlaceDetails);
