@@ -5,8 +5,9 @@ import {
   Button, Left, Right, Body, Icon,
   Spinner, ListItem
 } from 'native-base';
-import { Col, Row, Grid } from 'react-native-easy-grid';
+import { Row, Grid } from 'react-native-easy-grid';
 import PlaceImage from './PlaceImage';
+import PlaceReviews from './PlaceReviews';
 import styles from '../../styles';
 
 const openPlaceOnMap = (place) => {
@@ -40,7 +41,7 @@ const PlaceDetailsView = ({ navigation, place }) => (
     </Header>
 
     { place ?
-    (<Content>
+    (<Content style={{ backgroundColor: '#fff' }}>
       <Grid>
         <Row>
           <PlaceImage place={place} style={{ resizeMode: 'cover', width: null, flex: 1, height: 200 }}/>
@@ -51,7 +52,7 @@ const PlaceDetailsView = ({ navigation, place }) => (
             <Text>Rating: {place.rating}</Text>
           </View>
         </Row>
-        <View style={{ backgroundColor: '#fff', padding: 10 }}>
+        <View style={{ padding: 10 }}>
           <ListItem icon onPress={() => openPlaceOnMap(place)}>
             <Left>
               <Icon name='ios-pin-outline' />
@@ -78,10 +79,7 @@ const PlaceDetailsView = ({ navigation, place }) => (
             </Body>
           </ListItem>
         </View>
-        <View>
-          <Text>Photos: {}</Text>
-          <Text>Reviews: {}</Text>
-        </View>
+        <PlaceReviews />
       </Grid>
     </Content>) :
     (<Spinner />)

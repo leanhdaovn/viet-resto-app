@@ -5,7 +5,8 @@ import PlaceDetailsScreen from '../PlaceDetailsScreen';
 
 const AppNavigator = StackNavigator({
   Home: { screen: PlacesListScreen },
-  PlaceDetails: { screen: PlaceDetailsScreen }
+  PlaceDetails: { screen: PlaceDetailsScreen },
+  // Chart: { screen: ChartScreen },
 }, {
   navigationOptions: {
     header: { visible: false }

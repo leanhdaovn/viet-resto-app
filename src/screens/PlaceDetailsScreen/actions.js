@@ -1,5 +1,4 @@
 import { createAction } from 'redux-actions';
-import { SamplePlace } from '../../SamplePlaces';
 
 export const LOAD_PLACE_START_ACTION = 'currentPlace/LOAD_PLACE_START_ACTION'
 export const LOAD_PLACE_SUCCESS_ACTION = 'currentPlace/LOAD_PLACE_SUCCESS_ACTION'

@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PlaceDetailsView from './PlaceDetailsView';
 import {
-  clearCurrentPlaceAction,
+  createLoadPlaceSuccessAction,
   loadPlace
 } from './actions';
 import { currentPlaceSelector } from './selectors';
@@ -11,15 +11,31 @@ import get from 'lodash/fp/get';
 
 const getPlaceIfCorrect = (state, placeId) => {
   const place = currentPlaceSelector(state);
-  if (place && place.place_id == placeId){
-    return place
+  console.log('place', placeId, place)
+  if (place && placeId){
+    if (place.place_id == placeId){
+      return place;
+    } else {
+      return null;
+    }
+  } else {
+    return place; // SamplePlace
   }
-  return null;
-}
+};
+
+const setDefaultPlace = (dispatch, placeId) => {
+  if (placeId) {
+    return;
+  }
+  dispatch(createLoadPlaceSuccessAction({place: SamplePlace}));
+};
 
 const PlaceDetails = connect(
   (state, {place}) => ({
     place: getPlaceIfCorrect(state, place.place_id) //|| SamplePlace
+  }),
+  (dispatch, {place}) => ({
+    setDefaultPlace: setDefaultPlace(dispatch, place.place_id)
   })
 )(PlaceDetailsView);
 
@@ -28,7 +44,7 @@ const PlaceDetailsScreen = connect(
   (dispatch, { navigation }) => {
     const place = get('state.params.place')(navigation) || {}
     return {
-      loadPlace: dispatch(loadPlace(place.place_id)),
+      loadPlace: place.place_id ? dispatch(loadPlace(place.place_id)) : null,
       place
     }
   }
