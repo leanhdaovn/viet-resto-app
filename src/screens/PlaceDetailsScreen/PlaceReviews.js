@@ -9,14 +9,14 @@ import StarRating from 'react-native-star-rating';
 import { currentPlaceReviewsSelector } from './selectors';
 
 const PlaceReviewView = ({review}) => (
-  <View>
-    <ListItem avatar style={{ paddingTop: 20 }}>
+  <View style={{ marginTop: 20, marginBottom: 10 }}>
+    <ListItem avatar>
       <Left>
         <Thumbnail size={80} source={{uri: review.profile_photo_url}} />
       </Left>
-      <Body>
+      <Body style={{borderBottomWidth: 0}}>
           <Text>{review.author_name}</Text>
-          <Text>{review.relative_time_description}</Text>
+          <Text style={{color: '#9c9c9c'}}>{review.relative_time_description}</Text>
           <View style={{width: 100}}>
             <StarRating
               disabled={true}
@@ -27,8 +27,7 @@ const PlaceReviewView = ({review}) => (
           </View>
       </Body>
     </ListItem>
-    <ListItem avatar style={{ paddingBottom: 10 }}>
-      <Left/>
+    <ListItem avatar>
       <Body>
         <Text note>{review.text}</Text>
       </Body>
@@ -37,8 +36,8 @@ const PlaceReviewView = ({review}) => (
 )
 
 const PlaceReviewsView = ({ reviews }) => (
-  <View>
-    <Text>Reviews</Text>
+  <View style={{ marginTop: 30 }}>
+    <Text style={{paddingLeft: 10}}>Reviews</Text>
     { reviews.map((review) => <PlaceReviewView review={review} />) }
   </View>
 );
