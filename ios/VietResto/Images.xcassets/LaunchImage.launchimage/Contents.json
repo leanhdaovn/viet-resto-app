@@ -9,12 +9,14 @@
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
+      "filename" : "Default@2x-1.png",
       "extent" : "full-screen",
       "scale" : "2x"
     },
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
+      "filename" : "Default-568h@2x-1.png",
       "extent" : "full-screen",
       "subtype" : "retina4",
       "scale" : "2x"
